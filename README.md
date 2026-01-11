@@ -7,19 +7,17 @@ Bilgisayar Mühendisliğine Giriş Proje Açıklaması ve Algoritma Mantığı
 **Proje Özeti:** Bu proje, bilgisayar bilimlerinin temelini oluşturan verilerin dijital ortamda nasıl temsil edildiği ve depolama verimliliğinin nasıl artırıldığı üzerine odaklanmaktadır. Çalışma kapsamında teorik bilgiler ve pratik bir Python uygulaması bir araya getirilmiştir.
 
 
-**Teorik Kapsam:**
 
+**Teorik Kapsam:**
 
 - *Bilgi Gösterimi*: Verilerin bit desenleri (sayı, metin, görüntü, ses) olarak nasıl temsil edildiği.
 
-
 - *Sayı Sistemleri*: İkilik (Binary) sistem hesaplamaları ve kesirli sayıların gösterimi.
-
 
 - *Depolama Yöntemleri*: Tam sayıların depolanmasında kullanılan "İkinin Tümleyeni" ve "Fazlalık (Excess)" gösterim sistemleri.
 
-
 - *Kayan Nokta (Floating Point)*: Kesirli sayıların bilimsel gösterim mantığıyla depolanması ve yuvarlama hataları.
+
 
 
 **Veri Sıkıştırma Teknikleri:**
@@ -29,14 +27,17 @@ Bilgisayar Mühendisliğine Giriş Proje Açıklaması ve Algoritma Mantığı
 - Ses ve görüntü sıkıştırmada kullanılan kayıplı yöntemlere (MP3, MPEG) değinilmiştir.
 
 - Python Uygulaması (RLE Sıkıştırıcı): Projenin uygulama aşamasında, Python programlama dili kullanılarak bir RLE Sıkıştırıcı geliştirilmiştir.
+  
 
  **Bu araç:**
+
 
 - Ardışık tekrar eden karakterleri sayısal özetlerle sıkıştırarak (Encode) veri boyutunu azaltır.
 
 - Sıkıştırılmış veriyi tekrar orijinal haline (Decode) dönüştürür.
 
 - Elde edilen sıkıştırma oranını (%) hesaplayarak verimliliği raporlar.
+
 
 
 **Kodun Çalışma Mantığı (Python)**
@@ -50,6 +51,7 @@ Geliştirilen Python programı şu adımları izler:
 - *Yorum Satırları* : Kod içerisinde her fonksiyonun ve işlemin ne işe yaradığı yorum satırlarıyla açıklanmıştır. 
 
 
+
 **Kurulum ve Çalıştırma**
 
 Projenin çalışması için bilgisayarınızda Python yüklü olmalıdır. 
@@ -59,6 +61,7 @@ Projenin çalışması için bilgisayarınızda Python yüklü olmalıdır.
 2- *src* veya *kodlar* klasörüne gidin. 
 
 3- Terminal üzerinden Python dosyasını çalıştırın
+
 
 
 **Sunum Videosu**
