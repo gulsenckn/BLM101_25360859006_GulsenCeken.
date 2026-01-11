@@ -70,9 +70,3 @@ Projenin çalışması için bilgisayarınızda Python yüklü olmalıdır.
 3- Terminal üzerinden Python dosyasını çalıştırın
 
 
-
-**Sunum Videosu**
-
-*Youtube Linki:* 
-
-[Videoyu İzlemek İçin Tıklayın](https://youtu.be/jOyX7EhBL4Y?si=e1izFW_mqRyUryn_)
