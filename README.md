@@ -11,7 +11,9 @@ Bilgisayar Mühendisliğine Giriş Proje Açıklaması ve Algoritma Mantığı
 [Videoyu İzlemek İçin Tıklayın](https://youtu.be/jOyX7EhBL4Y?si=e1izFW_mqRyUryn_)
 
 
-**Proje Özeti:** Bu proje, bilgisayar bilimlerinin temelini oluşturan verilerin dijital ortamda nasıl temsil edildiği ve depolama verimliliğinin nasıl artırıldığı üzerine odaklanmaktadır. Çalışma kapsamında teorik bilgiler ve pratik bir Python uygulaması bir araya getirilmiştir.
+**Proje Özeti:** 
+
+Bu proje, bilgisayar bilimlerinin temelini oluşturan verilerin dijital ortamda nasıl temsil edildiği ve depolama verimliliğinin nasıl artırıldığı üzerine odaklanmaktadır. Çalışma kapsamında teorik bilgiler ve pratik bir Python uygulaması bir araya getirilmiştir.
 
 
 
@@ -53,7 +55,9 @@ Geliştirilen Python programı şu adımları izler:
 
 -  *Giriş* : Kullanıcıdan sıkıştırılmak üzere bir metin veya sayı dizisi alır.
   
-- *Sıkıştırma* : Bir döngü yardımıyla karakterler taranır, her bir karakterin ardışık tekrar sayısı hesaplanır ve tekrar sayısı ile karakter yan yana getirilir.
+- *Encode* : Bir döngü yardımıyla karakterler taranır, her bir karakterin ardışık tekrar sayısı hesaplanır ve tekrar sayısı ile karakter yan yana getirilir.
+
+- *Decode* : Sıkıştırılmış veri analiz edilerek tekrar eski haline dönüştürülür.
   
 - *Yorum Satırları* : Kod içerisinde her fonksiyonun ve işlemin ne işe yaradığı yorum satırlarıyla açıklanmıştır. 
 
@@ -68,5 +72,13 @@ Projenin çalışması için bilgisayarınızda Python yüklü olmalıdır.
 2- *src* veya *kodlar* klasörüne gidin. 
 
 3- Terminal üzerinden Python dosyasını çalıştırın
+
+
+**Örnek** :
+
+*Girdi:*  AAAAABBBCCDAA
+
+*Çıktı:*  5A3B2C1D2A
+
 
 
