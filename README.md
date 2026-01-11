@@ -1,22 +1,45 @@
 Bilgisayar Mühendisliğine Giriş Proje Açıklaması ve Algoritma Mantığı
 
-**1. Projenin Amacı**
+**Proje Başlığı:** Veri Depolama ve Sıkıştırma Algoritmaları & RLE Uygulaması 
 
-Bu projenin amacı, verilerin dijital ortamda nasıl temsil edildiğini ve depolama alanından tasarruf etmek için kullanılan sıkıştırma tekniklerinin mantığını kavramaktır. Proje kapsamında özellikle Run-Length Encoding (RLE) algoritması üzerine bir uygulama geliştirilmiştir. 
+**Hazırlayan:** Gülşen Çeken (25360859006) 
 
--------------
+**Proje Özeti:** Bu proje, bilgisayar bilimlerinin temelini oluşturan verilerin dijital ortamda nasıl temsil edildiği ve depolama verimliliğinin nasıl artırıldığı üzerine odaklanmaktadır. Çalışma kapsamında teorik bilgiler ve pratik bir Python uygulaması bir araya getirilmiştir.
 
-**2. Algoritma: Run-Length Encoding (RLE)**
 
-RLE, kayıpsız bir veri sıkıştırma algoritmasıdır. Ardışık tekrar eden veri birimlerini, verinin kendisi ve tekrar sayısı şeklinde gruplayarak depolar. 
+**Teorik Kapsam:**
 
-Örnek: AAAAABBBCC verisi, RLE ile 5A3B2C şeklinde sıkıştırılır.
 
-Avantajı: Çok fazla tekrar içeren verilerde yüksek sıkıştırma oranı sağlar. 
+- *Bilgi Gösterimi*: Verilerin bit desenleri (sayı, metin, görüntü, ses) olarak nasıl temsil edildiği.
 
--------------
 
-**3. Kodun Çalışma Mantığı (Python)**
+- *Sayı Sistemleri*: İkilik (Binary) sistem hesaplamaları ve kesirli sayıların gösterimi.
+
+
+- *Depolama Yöntemleri*: Tam sayıların depolanmasında kullanılan "İkinin Tümleyeni" ve "Fazlalık (Excess)" gösterim sistemleri.
+
+
+- *Kayan Nokta (Floating Point)*: Kesirli sayıların bilimsel gösterim mantığıyla depolanması ve yuvarlama hataları.
+
+
+**Veri Sıkıştırma Teknikleri:**
+
+- Kayıpsız sıkıştırma yöntemlerinden RLE (Run-Length Encoding), Huffman ve LZW algoritmalarının mantığı incelenmiştir.
+
+- Ses ve görüntü sıkıştırmada kullanılan kayıplı yöntemlere (MP3, MPEG) değinilmiştir.
+
+- Python Uygulaması (RLE Sıkıştırıcı): Projenin uygulama aşamasında, Python programlama dili kullanılarak bir RLE Sıkıştırıcı geliştirilmiştir.
+
+ **Bu araç:**
+
+- Ardışık tekrar eden karakterleri sayısal özetlerle sıkıştırarak (Encode) veri boyutunu azaltır.
+
+- Sıkıştırılmış veriyi tekrar orijinal haline (Decode) dönüştürür.
+
+- Elde edilen sıkıştırma oranını (%) hesaplayarak verimliliği raporlar.
+
+
+**Kodun Çalışma Mantığı (Python)**
 
 Geliştirilen Python programı şu adımları izler: 
 
@@ -26,9 +49,8 @@ Geliştirilen Python programı şu adımları izler:
   
 - *Yorum Satırları* : Kod içerisinde her fonksiyonun ve işlemin ne işe yaradığı yorum satırlarıyla açıklanmıştır. 
 
--------------
 
-**4. Kurulum ve Çalıştırma**
+**Kurulum ve Çalıştırma**
 
 Projenin çalışması için bilgisayarınızda Python yüklü olmalıdır. 
 
